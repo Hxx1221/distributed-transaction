@@ -5,6 +5,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>dubbo-consumer</module>
+        <module>dubbo-privoder</module>
+        <module>dubbo-api</module>
     </modules>
     <parent>
         <groupId>com.distributed.transaction</groupId>
@@ -16,6 +18,37 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot-dubbo-tcc</name>
     <description>Demo project for Spring Boot</description>
-
+    <dependencies>
+        <dependency>
+            <artifactId>tcc-transaction-api</artifactId>
+            <groupId>org.mengyun</groupId>
+            <version>1.2.7</version>
+        </dependency>
+        <dependency>
+            <artifactId>tcc-transaction-spring</artifactId>
+            <groupId>org.mengyun</groupId>
+            <version>1.2.7</version>
+        </dependency>
+        <dependency>
+            <artifactId>tcc-transaction-dubbo</artifactId>
+            <groupId>org.mengyun</groupId>
+            <version>1.2.7</version>
+        </dependency>
+        <dependency>
+            <artifactId>tcc-transaction-core</artifactId>
+            <groupId>org.mengyun</groupId>
+            <version>1.2.7</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.1.12</version>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.10</version>
+        </dependency>
+    </dependencies>
 
 </project>
