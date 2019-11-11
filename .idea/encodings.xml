@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/springboot-dubbo-tcc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-dubbo-tcc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-dubbo-tcc/dubbo-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-dubbo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-spring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-dubbo-sample" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-dubbo-sample/tcc-transaction-dubbo-capital" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-dubbo-sample/tcc-transaction-dubbo-capital-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-dubbo-sample/tcc-transaction-dubbo-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-dubbo-sample/tcc-transaction-dubbo-redpacket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-dubbo-sample/tcc-transaction-dubbo-redpacket-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-http-sample" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-http-sample/tcc-transaction-http-capital" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-http-sample/tcc-transaction-http-capital-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-http-sample/tcc-transaction-http-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-http-sample/tcc-transaction-http-redpacket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-http-sample/tcc-transaction-http-redpacket-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-sample-domain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-sample-domain/tcc-transaction-sample-captial" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-sample-domain/tcc-transaction-sample-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-sample-domain/tcc-transaction-sample-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-sample-domain/tcc-transaction-sample-redpacket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-server-sample" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-unit-test" charset="UTF-8" />
+  </component>
+</project>

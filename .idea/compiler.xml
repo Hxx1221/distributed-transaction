@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="dubbo-consumer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-dubbo-consumer" target="1.8" />
+      <module name="springboot-dubbo-tcc" target="1.5" />
+      <module name="tcc-transaction" target="1.6" />
+      <module name="tcc-transaction-api" target="1.6" />
+      <module name="tcc-transaction-core" target="1.6" />
+      <module name="tcc-transaction-dubbo" target="1.6" />
+      <module name="tcc-transaction-dubbo-capital" target="1.6" />
+      <module name="tcc-transaction-dubbo-capital-api" target="1.6" />
+      <module name="tcc-transaction-dubbo-order" target="1.6" />
+      <module name="tcc-transaction-dubbo-redpacket" target="1.6" />
+      <module name="tcc-transaction-dubbo-redpacket-api" target="1.6" />
+      <module name="tcc-transaction-dubbo-sample" target="1.6" />
+      <module name="tcc-transaction-http-capital" target="1.6" />
+      <module name="tcc-transaction-http-capital-api" target="1.6" />
+      <module name="tcc-transaction-http-order" target="1.6" />
+      <module name="tcc-transaction-http-redpacket" target="1.6" />
+      <module name="tcc-transaction-http-redpacket-api" target="1.6" />
+      <module name="tcc-transaction-http-sample" target="1.6" />
+      <module name="tcc-transaction-sample-captial" target="1.6" />
+      <module name="tcc-transaction-sample-common" target="1.6" />
+      <module name="tcc-transaction-sample-domain" target="1.6" />
+      <module name="tcc-transaction-sample-order" target="1.6" />
+      <module name="tcc-transaction-sample-redpacket" target="1.6" />
+      <module name="tcc-transaction-server" target="1.6" />
+      <module name="tcc-transaction-server-sample" target="1.6" />
+      <module name="tcc-transaction-spring" target="1.6" />
+      <module name="tcc-transaction-tutorial-sample" target="1.6" />
+      <module name="tcc-transaction-unit-test" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dubbo-consumer" options="" />
+      <module name="springboot-dubbo-consumer" options="-parameters" />
+      <module name="springboot-dubbo-tcc" options="-parameters" />
+    </option>
+  </component>
+</project>

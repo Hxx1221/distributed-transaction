@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ASMIdeaPluginConfiguration">
+    <asm skipDebug="false" skipFrames="false" skipCode="false" expandFrames="false" />
+    <groovy codeStyle="LEGACY" />
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-server" />
+    <file type="web" url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-dubbo-sample/tcc-transaction-dubbo-capital" />
+    <file type="web" url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-dubbo-sample/tcc-transaction-dubbo-order" />
+    <file type="web" url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-dubbo-sample/tcc-transaction-dubbo-redpacket" />
+    <file type="web" url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-http-sample/tcc-transaction-http-capital" />
+    <file type="web" url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-http-sample/tcc-transaction-http-order" />
+    <file type="web" url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-http-sample/tcc-transaction-http-redpacket" />
+    <file type="web" url="file://$PROJECT_DIR$/tcc-transaction/tcc-transaction-tutorial-sample/tcc-transaction-server-sample" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/tcc-transaction/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-dubbo-tcc/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/springboot-dubbo-tcc/pom.xml" />
+        <option value="$PROJECT_DIR$/tcc-transaction/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8 (2)" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
