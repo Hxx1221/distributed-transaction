@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cloud.transaction.msg.mapper.MsgMapper">
+  <resultMap id="BaseResultMap" type="com.cloud.transaction.msg.entity.Msg">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="msg_id" jdbcType="VARCHAR" property="msgId" />
+    <result column="status" jdbcType="TINYINT" property="status" />
+    <result column="app_name" jdbcType="VARCHAR" property="appName" />
+    <result column="routing_key" jdbcType="VARCHAR" property="routingKey" />
+    <result column="json_msg" jdbcType="VARCHAR" property="jsonMsg" />
+    <result column="deleted" jdbcType="TINYINT" property="deleted" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+
+  <select id="selectOverdueMsg"  resultMap="BaseResultMap">
+    select * from tx_msg m where `status`=#{status}  and TIMESTAMPDIFF(MINUTE,create_time, NOW())>#{time}
+  </select>
+</mapper>

@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
-//@EnableDubboConfiguration
+@EnableDubboConfiguration
 public class ConsumerApplication {
 
     public static void main(String[] args) {

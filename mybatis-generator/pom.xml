@@ -61,5 +61,25 @@
             </plugin>
         </plugins>
     </build>
+    <dependencies>
+        <dependency>
+            <groupId>io.rsocket</groupId>
+            <artifactId>rsocket-core</artifactId>
+            <version>1.0.0-RC5</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.rsocket</groupId>
+            <artifactId>rsocket-transport-netty</artifactId>
+            <version>1.0.0-RC5</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.rsocket</groupId>
+            <artifactId>rsocket-transport-netty</artifactId>
+            <version>1.0.0-RC5</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
 </project>

@@ -11,6 +11,9 @@
     <modules>
         <module>springboot-dubbo-tcc</module>
         <module>mybatis-generator</module>
+        <module>springcloud-hmily</module>
+        <module>independent-message</module>
+
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -18,7 +21,9 @@
         <version>2.0.3.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
+
     <dependencies>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
@@ -29,15 +34,14 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
+    <!--<build>-->
+        <!--<plugins>-->
+            <!--<plugin>-->
+                <!--<groupId>org.springframework.boot</groupId>-->
+                <!--<artifactId>spring-boot-maven-plugin</artifactId>-->
+            <!--</plugin>-->
+        <!--</plugins>-->
+    <!--</build>-->
 </project>

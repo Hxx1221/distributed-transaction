@@ -9,10 +9,33 @@
         <module name="dubbo-api" />
         <module name="dubbo-consumer" />
         <module name="dubbo-privoder" />
+        <module name="hmily-commons" />
+        <module name="hmily-coupon-api" />
+        <module name="hmily-coupon-server" />
+        <module name="hmily-erueka" />
+        <module name="hmily-inventory-api" />
+        <module name="hmily-inventory-server" />
+        <module name="hmily-order" />
+        <module name="hmily-score-api" />
+        <module name="hmily-score-server" />
         <module name="mybatis-generator" />
+        <module name="tx-commons" />
+        <module name="tx-coupon-api" />
+        <module name="tx-inventory-api" />
+        <module name="tx-inventory-server" />
+        <module name="tx-msg-api" />
+        <module name="tx-msg-server" />
+        <module name="tx-order-api" />
+        <module name="tx-order-server" />
+        <module name="tx-pay" />
+        <module name="tx-score-api" />
+        <module name="tx-score-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="consumer" target="1.8" />
+      <module name="rsocket" target="1.8" />
+      <module name="server" target="1.8" />
       <module name="springboot-dubbo-consumer" target="1.8" />
       <module name="springboot-dubbo-tcc" target="1.8" />
       <module name="tcc-transaction" target="1.6" />
@@ -45,12 +68,37 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consumer" options="-parameters" />
       <module name="dubbo-api" options="-parameters" />
       <module name="dubbo-consumer" options="-parameters" />
       <module name="dubbo-privoder" options="-parameters" />
+      <module name="hmily-commons" options="-parameters" />
+      <module name="hmily-coupon-api" options="-parameters" />
+      <module name="hmily-coupon-server" options="-parameters" />
+      <module name="hmily-erueka" options="-parameters" />
+      <module name="hmily-inventory-api" options="-parameters" />
+      <module name="hmily-inventory-server" options="-parameters" />
+      <module name="hmily-order" options="-parameters" />
+      <module name="hmily-score-api" options="-parameters" />
+      <module name="hmily-score-server" options="-parameters" />
+      <module name="independent-message" options="-parameters" />
       <module name="mybatis-generator" options="-parameters" />
+      <module name="rsocket" options="-parameters" />
+      <module name="server" options="-parameters" />
       <module name="springboot-dubbo-consumer" options="-parameters" />
       <module name="springboot-dubbo-tcc" options="-parameters" />
+      <module name="springcloud-hmily" options="-parameters" />
+      <module name="tx-commons" options="-parameters" />
+      <module name="tx-coupon-api" options="-parameters" />
+      <module name="tx-inventory-api" options="-parameters" />
+      <module name="tx-inventory-server" options="-parameters" />
+      <module name="tx-msg-api" options="-parameters" />
+      <module name="tx-msg-server" options="-parameters" />
+      <module name="tx-order-api" options="-parameters" />
+      <module name="tx-order-server" options="-parameters" />
+      <module name="tx-pay" options="-parameters" />
+      <module name="tx-score-api" options="-parameters" />
+      <module name="tx-score-server" options="-parameters" />
     </option>
   </component>
 </project>

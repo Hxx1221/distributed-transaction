@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cloud.transaction.score.mapper.ScoreAccountMapper">
+  <resultMap id="BaseResultMap" type="com.cloud.transaction.score.entity.ScoreAccount">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="total_score" jdbcType="INTEGER" property="totalScore" />
+    <result column="lock_score" jdbcType="INTEGER" property="lockScore" />
+    <result column="deleted" jdbcType="TINYINT" property="deleted" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+
+  <update id="decrease" parameterType="com.cloud.transaction.score.entity.ScoreAccount">
+      update tx_score_account set
+      total_score  = total_score + #{totalScore},
+      lock_score = lock_score + #{lockScore}
+      where user_id=#{userId}
+    </update>
+
+</mapper>

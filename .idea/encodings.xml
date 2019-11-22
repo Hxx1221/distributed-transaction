@@ -2,10 +2,36 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/independent-message" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/independent-message/tx-commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/independent-message/tx-coupon-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/independent-message/tx-inventory-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/independent-message/tx-inventory-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/independent-message/tx-msg-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/independent-message/tx-msg-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/independent-message/tx-order-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/independent-message/tx-order-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/independent-message/tx-pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/independent-message/tx-score-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/independent-message/tx-score-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rsocket" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rsocket/consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rsocket/server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-dubbo-tcc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-dubbo-tcc/dubbo-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-dubbo-tcc/dubbo-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot-dubbo-tcc/dubbo-privoder" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot-hmily" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-hmily" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-hmily/hmily-commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-hmily/hmily-coupon-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-hmily/hmily-coupon-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-hmily/hmily-erueka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-hmily/hmily-inventory-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-hmily/hmily-inventory-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-hmily/hmily-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-hmily/hmily-score-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-hmily/hmily-score-server" charset="UTF-8" />
   </component>
 </project>

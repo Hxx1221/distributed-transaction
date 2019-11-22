@@ -25,6 +25,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/rsocket/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-dubbo-tcc/pom.xml" />
         <option value="$PROJECT_DIR$/tcc-transaction/pom.xml" />
       </set>

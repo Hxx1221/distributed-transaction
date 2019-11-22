@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cloud.transaction.order.mapper.OrderMapper">
+  <resultMap id="BaseResultMap" type="com.cloud.transaction.order.entity.Order">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="user_id" jdbcType="INTEGER" property="userId" />
+    <result column="product_id" jdbcType="INTEGER" property="productId" />
+    <result column="product_count" jdbcType="INTEGER" property="productCount" />
+    <result column="order_no" jdbcType="VARCHAR" property="orderNo" />
+    <result column="status" jdbcType="TINYINT" property="status" />
+    <result column="total_money" jdbcType="DECIMAL" property="totalMoney" />
+    <result column="coupon_receive_id" jdbcType="INTEGER" property="couponReceiveId" />
+    <result column="district_money" jdbcType="DECIMAL" property="districtMoney" />
+    <result column="payment_money" jdbcType="DECIMAL" property="paymentMoney" />
+    <result column="decrease_score" jdbcType="INTEGER" property="decreaseScore" />
+    <result column="largess_score" jdbcType="INTEGER" property="largessScore" />
+    <result column="deleted" jdbcType="TINYINT" property="deleted" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+</mapper>
